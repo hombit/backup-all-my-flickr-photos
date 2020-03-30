@@ -2,6 +2,8 @@ version: '2'
 services:
   app:
     build: .
+    volumes:
+      - "/tmp/Flickr:/Flickr"
     env_file:
       - secrets.env
     restart: 'no'
