@@ -1,3 +1,4 @@
 /backup_all_my_flickr_photos.egg-info
 /dist
 /build
+/secrets.env
